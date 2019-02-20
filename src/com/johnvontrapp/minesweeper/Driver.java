@@ -1,3 +1,4 @@
+package com.johnvontrapp.minesweeper;
 
 import javax.swing.JFrame;
 
@@ -7,12 +8,12 @@ import javax.swing.JFrame;
  */
 public class Driver {
 
-    public static void main(String[] args) {  //Creates the frame for the game.
-        JFrame frame = new JFrame("Minesweeper!");
-        frame.setSize(900, 900);
-        frame.setLocation(200, 100);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setContentPane(new Minesweeper());
-        frame.setVisible(true);
-    }
+	public static void main(String[] args) { // Creates the frame for the game.
+		JFrame frame = new JFrame("Minesweeper!");
+		frame.setSize(900, 900);
+		frame.setLocation(200, 100);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setContentPane(new Minesweeper());
+		frame.setVisible(true);
+	}
 }
